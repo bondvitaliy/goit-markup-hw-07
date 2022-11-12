@@ -1,0 +1,23 @@
+.hero-background {
+  background-color: $color-hero;
+}
+
+.hero {
+  background-image: $gradient-hero, url(../images/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 1600px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  text-align: center;
+  color: $color-white;
+}
+
+.hero-button {
+  @extend %button;
+  padding: 10px 32px;
+}

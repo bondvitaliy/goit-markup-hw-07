@@ -1,0 +1,21 @@
+.logo {
+  text-decoration: none;
+  font-family: $font-second;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  margin-right: 93px;
+}
+
+.logo__left-part {
+  color: $color-brand;
+}
+
+.logo__right-part--dark {
+  color: $color-black;
+}
+
+.logo__right-part--light {
+  color: $color-white;
+}
